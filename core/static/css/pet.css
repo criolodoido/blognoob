@@ -1,0 +1,49 @@
+.timbre img {
+	width: 100%;
+	height: 25%;
+}
+body {
+	background-image: url(fundo1.jpg);
+	background-size:100%;
+	background-repeat: repeat-y;
+}
+table {
+    border-collapse: separate;
+    width: 100%;
+    border: 1px solid black;
+    background-color: yellow;
+} 
+
+td {
+    border: 1px solid black;
+}
+
+.btn1 {
+	background-color: #4CAF50;
+	width: 16.666666667%;
+}
+
+.btn2 {
+	background-color: #008CBA;
+	width: 16.666666667%
+}
+
+.btn3 {
+	background-color: #f44336;
+	width: 16.666666667%
+}
+
+.btn4 {
+	background-color: #0000FF;
+	width: 16.666666667%
+}
+
+.btn5 {
+	background-color: #555555;
+	width: 16.666666667%
+}
+
+.btn6 {
+	background-color: #00FFFF;
+	width: 16.666666667%
+}

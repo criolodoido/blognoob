@@ -1,0 +1,26 @@
+{% load staticfiles%}
+<html>
+	<head>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="{% static 'css/pet.css' %}">
+	</head>
+	<div class="timbre">
+		<header class='cabeca'><img src="{% static 'image/timbre1.jpg' %}" alt="noob"></header>
+	</div>
+	<body>
+		<div class="tabela">
+			<table border="2">
+		    <tr>
+		        <button class="btn1">História</button><button class="btn2">Seu pet mania</button><button class="btn3">Nosso Cartoon</button><button class="btn4">Nos envie seu pet</button><button class="btn5">Pedigree</button><button class="btn6">Contate-nos</button>
+		    </tr>
+			</table>
+		</div>
+		<div class="postagem">
+			{% for postagem in posts %}
+				{{ postagem.titulo }}
+				{{ postagem.texto }} 
+			{% endfor %}
+		</div>
+	</body>
+</html>
