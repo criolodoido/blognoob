@@ -1,1 +1,1 @@
-web: gunicorn confiam.wsgi --log-file -
+web: gunicorn blognoob.wsgi --log-file -
